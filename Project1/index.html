@@ -1,1 +1,38 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="login-header">
+                <h1>Login</h1>
+                <div class="underline"></div>
+            </div>
+            <form id="loginForm">
+                <div class="input-group">
+                    <input type="text" id="username" name="username" required>
+                    <label for="username">Username</label>
+                    <div class="input-highlight"></div>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" name="password" required>
+                    <label for="password">Password</label>
+                    <div class="input-highlight"></div>
+                </div>
+                <button type="submit" class="login-btn">
+                    <span>Sign In</span>
+                    <div class="btn-highlight"></div>
+                </button>
+            </form>
+            <p class="error-message" id="errorMessage"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
