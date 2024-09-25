@@ -96,7 +96,7 @@ function showResult() {
         gifImg.alt = "Winner GIF";
         resultElement.innerHTML += "<br><span class='success'>Congratulations! You're a quantum genius!</span>";
     } else {
-        gifImg.src = "https://media.giphy.com/media/l1J9EdzfOSgfyueLm/giphy.gif";
+        gifImg.src = "https://media.giphy.com/media/TU76e2JHkPchG/giphy.gif";
         gifImg.alt = "Loser GIF";
         resultElement.innerHTML += "<br><span class='failure'>Don't worry, even Einstein made mistakes!</span>";
     }
